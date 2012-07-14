@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+</head>
+
+<body>
+<div id="warp">
+     <div class="head">
+          <div class="top">
+                <div class="head-left"><a href="#"><img src="images/btn-top.jpg" width="180" height="70" border="0" /></a></div>
+                <div class="head-right"></div>
+                <div style=" clear:both"></div>
+          </div>
+          <div class="head-bottom">
+               <ul> 
+                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li>
+                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </li>
+               </ul>
+          </div>
+     </div>
+     <div class="content">
+       <div class="content-left">
+               <div class="content-left-top"></div>
+               <div class="content-left-bottom">
+                    <p>" The app features an intuitive interface that is extremely easy on the eyes. "</p>
+                    <span>— Daivd Pittman</span>
+                 <span style="font-size:10px;">iconnice.com</span>
+               </div>
+          </div>
+          <div class="content-right">
+            <h1><strong>Your Great Description Here </strong><br />
+                 Try it For Free!</h1>
+                 <div class="feature">
+                       <div class="feature1"><h2>Feature</h2></div>
+                       <div class="feature2"><a href="#"><img src="images/btn-nore.jpg" width="74" height="17" border="0" /></a></div>
+                       <div style=" clear:both"></div>
+                 </div>
+                 <div class="heart">Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                 <div class="v">Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                 <div class="yes">Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit, sed do eiusmod tempor <a href="#">incididunt</a> ut labore et dolore magna aliqua. </div>
+                <h2>Screenshot</h2>
+                 <div class="ProOverview">
+                     <div class="ProImg">
+                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
+                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
+                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
+                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
+                <div style=" clear:both"></div>
+                </div></div>
+                <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p><img src="images/rss.jpg" width="30" height="32"  style=" padding-right:10px;"/><img src="images/facebook.jpg" width="30" height="32" /></p>
+          </div>
+          <div style="clear:both"></div>
+     </div>
+     <div class="foot"><p>website design by <a href="http://iconnice.com">iconnice.com</a> © 2009-2010</p></div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ProOverview .ProImg a:has(img)').fancybox({
+		'zoomOpacity'			: true,
+		'overlayShow'			: true,
+		'zoomSpeedIn'			: 500,
+		'zoomSpeedOut'			: 500,
+		'hideOnContentClick'	: false
+	});
+}); 
+
+</script>
+</body>
+</html>

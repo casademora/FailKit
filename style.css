@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ width:100%; height:auto; background:#FFF; background:url(images/bg.jpg) repeat-x top; margin:0; padding:0;}
+
+#warp{ width:960px; height:auto; margin:0 auto;}
+.head{ height:305px;}
+.head-left{ width:180px; height:159px; background:url(images/baner2.jpg) no-repeat 0 70px; float:left;}
+.head-right{ width:532px; height:159px;  float:left; background:url(images/bannrt.jpg) no-repeat top;}
+.head-bottom{ padding-left:350px; margin:0; width:362px;}
+.head-bottom ul{ margin:0; padding:0; list-style:none; font-family:Verdana, arial, Geneva, sans-serif; font-size:11px; color:#778890; line-height:20px;}
+.head-bottom ul li{margin:0; padding-left:20px;padding-bottom:10px; background:url(images/dian.png) no-repeat 5px 6px;}
+
+.content{ margin:0; padding:72px 70px 40px 56px; width:834px; height:auto;}
+.content-left{ float:left; width:328px; margin-right:40px;}
+.content-left-top{ background:url(images/ip.jpg) no-repeat top; height:588px;}
+.content-left-bottom{ background:url(images/text.jpg) no-repeat top; height:140px; padding:20px 45px 30px 88px;}
+.content-left-bottom p{ margin:0; padding-bottom:10px; font-family: Georgia, verdana, Times, serif; font-size:17px; color:#bdbdbd; line-height:24px; font-style:italic;}
+.content-left-bottom span{ margin:0; padding-right:5px; font-family: Georgia, verdana, Times, serif; font-size:14px; color:#ffeed8;  font-style:italic; text-align:right; display:block;}
+
+.content-right{ float:right; width:466px; margin:0px; padding-top:10px;}
+h1{ font-family:Myriad Pro, Verdana, Arial; font-size:34px; line-height:40px; color:#4f575b; margin:0; padding-bottom:30px; font-weight:lighter;}
+h2{ margin:0; padding-left:30px;padding-bottom:10px; font-family:Myriad Pro, Verdana, Arial; font-size:28px; font-weight:lighter; color:#5eb115; background:url(images/arrow.jpg) no-repeat 0 5px;}
+a{ color:#5eb115;}
+.feature1{ float:left;}
+.feature2{ float:right; padding-top:10px; padding-right:20px;}
+.heart{ background:url(images/heart.jpg) no-repeat 0 2px; padding-left: 30px; padding-bottom:20px; font-family: Arial, Verdana, Geneva, sans-serif; font-size:14px; line-height:20px; color:#4f575b;}
+.v{ background:url(images/v.jpg) no-repeat 0 2px; padding-left: 30px; padding-bottom:20px; font-family: Arial, Verdana, Geneva, sans-serif; font-size:14px; line-height:20px; color:#4f575b;}
+.yes{ background:url(images/yes.jpg) no-repeat 0 2px; padding-left: 30px; padding-bottom:30px; font-family: Arial, Verdana, Geneva, sans-serif; font-size:14px; line-height:20px; color:#4f575b;}
+.pic img { float:left; padding-right: 13px; padding-bottom:30px;}
+p{ font-family: Arial, Verdana, Geneva, sans-serif; font-size:14px; line-height:20px; color:#4f575b; margin:0; padding-bottom:20px;}
+
+.foot{ height:30px; padding:20px 0 0 120px;}
+
