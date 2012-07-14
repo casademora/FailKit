@@ -1,78 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
-<script type="text/javascript" src="script/jquery.js"></script>
-<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
-<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+<title>FailKit | Simple things made more Complicated, Complicated things made Impossible (tm)</title>
+
+<link rel="stylesheet" href="stylesheets/base.css">
+<link rel="stylesheet" href="stylesheets/skeleton.css">
+<link rel="stylesheet" href="stylesheets/layout.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-<div id="warp">
-     <div class="head">
-          <div class="top">
-                <div class="head-left"><a href="#"><img src="images/btn-top.jpg" width="180" height="70" border="0" /></a></div>
-                <div class="head-right"></div>
-                <div style=" clear:both"></div>
-          </div>
-          <div class="head-bottom">
-               <ul> 
-                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li>
-                   <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </li>
-               </ul>
-          </div>
-     </div>
-     <div class="content">
-       <div class="content-left">
-               <div class="content-left-top"></div>
-               <div class="content-left-bottom">
-                    <p>" The app features an intuitive interface that is extremely easy on the eyes. "</p>
-                    <span>— Daivd Pittman</span>
-                 <span style="font-size:10px;">iconnice.com</span>
-               </div>
-          </div>
-          <div class="content-right">
-            <h1><strong>Your Great Description Here </strong><br />
-                 Try it For Free!</h1>
-                 <div class="feature">
-                       <div class="feature1"><h2>Feature</h2></div>
-                       <div class="feature2"><a href="#"><img src="images/btn-nore.jpg" width="74" height="17" border="0" /></a></div>
-                       <div style=" clear:both"></div>
-                 </div>
-                 <div class="heart">Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                 <div class="v">Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                 <div class="yes">Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit, sed do eiusmod tempor <a href="#">incididunt</a> ut labore et dolore magna aliqua. </div>
-                <h2>Screenshot</h2>
-                 <div class="ProOverview">
-                     <div class="ProImg">
-                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
-                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
-                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
-                  <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="102" height="102" border="0" /></a>
-                <div style=" clear:both"></div>
-                </div></div>
-                <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p><img src="images/rss.jpg" width="30" height="32"  style=" padding-right:10px;"/><img src="images/facebook.jpg" width="30" height="32" /></p>
-          </div>
-          <div style="clear:both"></div>
-     </div>
-     <div class="foot"><p>website design by <a href="http://iconnice.com">iconnice.com</a> © 2009-2010</p></div>
-</div>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.ProOverview .ProImg a:has(img)').fancybox({
-		'zoomOpacity'			: true,
-		'overlayShow'			: true,
-		'zoomSpeedIn'			: 500,
-		'zoomSpeedOut'			: 500,
-		'hideOnContentClick'	: false
-	});
-}); 
+    <div id="banner"><a href="http://casademora.github.com/FailKit">Fork Me on Github!</a></div>
+    <header class="columns sixteen">
+        <span class="failkitlogo"></span>
+        <h1>FailKit</h1>
+        <h2>Never before has there been so much Fail in one Framework!</h2>
+    </header>
+    
+    <section class="container">
+        <section class="columns sixteen">
+            <h2>What is FailKit</h2>
+            <p>
+            FailKit is a collection of code and tools you can use to Supercharge your own code and apps. We figured if a little bit of a good thing is good, then a lot must be great! 
+            </p>
+        </section>
+        
+        <section class="columns sixteen">
+        
+            <div class="testimonial">
+               My project had no compiler warnings, but I felt that my code was rather lonely without them.
+               <div class="attribution">Random Task</div>
+            </div>
+            <div class="testimonial">
+                Thanks to FailKit, I have complete job security!
+                <div class="attribution">Dude in the next cube</div>
+            </div>
+            <div class="testimonial">
+                Don't underestimate the <em>POWER</em> of the Dark Side
+                <div class="attribution">Your Boss</div>
+            </div>        
+        </section>
+        
+        <section class="columns sixteen">        
+            <h2>Features</h2>
+            
+            <ul class="features">
+                <li>More Fail per line of Code than any other Framework</li>
+                <li>More compiler warnings out of the box than any other Cocoa Framework! (And we've looked!)</li>
+                <li>Every NSObject is a Singleton! Singletons are quite useful, so make all your objects useful by making them Singletons! </li>
+                <li>No more .m files! All the code, class headers AND implementation bodies, are in a single file!</li>
+            </ul>
+        
+        </section>
 
-</script>
+        <section class="columns sixteen">
+            <h2>UI Components</h2>
+            <p>
+                <strong>Fail UI Components Kit</strong> provides enough visual failure that you'll never need to look elsewhere for so much fail!</p>
+            <p>
+                Fail UI Components Kit Features include:
+                <ul>
+                    <li>All UI Component delegates are automatically set to your Application Delegate!</li>
+                    <li>All Table View delegates forward to a single method tableView:didCallMethod:withOptions: so all your code can be in one single, convenient method!</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="columns sixteen">
+            <h2>System Requirements</h2>
+            <p>
+            The FailKit Framework is cross platform. There are no system requirements.
+        </section>
+        
+        <section class="columns sixteen">
+            <h2>Sample Code</h2>
+            <pre>
+@autorelease
+{
+    idNSObject * failKit = [FailKit defaultInstance];
+    while ([failKit retainCount] > 0)
+    {
+        [failKit autorelease];
+    }
+}
+            </pre>
+        </section>
+        
+        <section class="columns">
+            <h2>License</h2>
+            <p>
+            We want FailKit to be distributed far and wide. We want fail in all the apps! You are free to use this framework in your apps provided you:
+            <ul>
+                <li>Can name all the actors who have played Dr. Who</li>
+                <li>Have used an Altair</li>
+                <li>Will give the original authors a ride to the airport when needed</li>
+                <li>Will give the original authors a place to crash after a night of alcohol, also provided by you, licensee</li>
+            </ul>
+            </p>
+        </section>
+    </section>
+    <footer class="columns">
+        <span class="copyright sixteen columns">&copy; 2012
+        FailKit: A concoction of epic fail from the twisted minds of Graham Lee and <a href="http://saulmora.com">Saul Mora</a>
+        </span>
+    </footer>
+
 </body>
 </html>
